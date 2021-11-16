@@ -19,3 +19,4 @@ Minimal Todo App powered by Flutter
 - clone this project
 - install dependencies `flutter pub get`
 - run the app `flutter run`
+# MyTodo
