@@ -36,25 +36,7 @@ class _HomeState extends State<Home> {
               onPressed: () {
                 Auth(auth: widget.auth).signOut();
               }),
-          // PopupMenuButton(
-          //   onSelected: (String value) {
-          //     switch (value) {
-          //       case "TodoDone":
-          //         //show todo done here
-          //         break;
-          //       default:
-          //     }
-          //   },
-          //   itemBuilder: (BuildContext context) {
-          //     final List<String> menus = ["TodoDone", "Logout"];
-          //     return menus.map((menu) {
-          //       return PopupMenuItem(
-          //         value: menu,
-          //         child: Text(menu),
-          //       );
-          //     }).toList();
-          //   },
-          // ),
+
         ],
       ),
       body: Column(

@@ -6,9 +6,6 @@ class Database {
 
   Database({this.firestore});
 
-  /**
-   * @param uid of user
-   */
   Stream<List<Todo>> streamTodos({String uid}) {
     try {
       return firestore
@@ -29,10 +26,7 @@ class Database {
     }
   }
 
-  /**
-   * @param uid of user
-   * @param content of todo
-   */
+
   Future<void> addTodo({String uid, String content}) async {
     try {
       firestore
@@ -45,10 +39,7 @@ class Database {
     }
   }
 
-  /**
-   * @param uid of user
-   * @param id of todo
-   */
+
   Future<void> updateTodo({String uid, String id}) async {
     try {
       firestore
